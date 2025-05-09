@@ -1,10 +1,15 @@
-import ReadingProps from "./components/ReadingProps";
+// import Toolbar from "./components/Toolbar";
+
+import Form from "./components/EventPropagation/Form";
 
 function App() {
   return (
     <>
       {/* <Button /> */}
-      <ReadingProps />
+      {/* <ReadingProps /> */}
+      {/* <Toolbar /> */}
+      {/* <ToolbarTwo /> */}
+      <Form />
     </>
   );
 }
