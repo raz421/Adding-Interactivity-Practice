@@ -1,7 +1,7 @@
 export default function Button() {
-  const handleClick = () => {
-    alert("button Clicked");
-  };
+  //   const handleClick = () => {
+  //     alert("button Clicked");
+  //   };
   return (
     <button
       onClick={() => {

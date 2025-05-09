@@ -1,9 +1,10 @@
-import Button from "./components/Button";
+import ReadingProps from "./components/ReadingProps";
 
 function App() {
   return (
     <>
-      <Button />
+      {/* <Button /> */}
+      <ReadingProps />
     </>
   );
 }
