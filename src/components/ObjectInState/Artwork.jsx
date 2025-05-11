@@ -9,13 +9,36 @@ export default function ArtWork() {
       image: "https://i.imgur.com/Sd1AgUOm.jpg",
     },
   });
-  const handleChange = (e) => {
+  const handleNameChange = (e) => {
     setPerson({
       ...person,
-      [e.target.name]: e.target.value,
+      name: e.target.value,
+    });
+  };
+  const handleTitleChange = (e) => {
+    setPerson({
+      ...person,
       artwork: {
         ...person.artwork,
-        [e.target.name]: e.target.value,
+        title: e.target.value,
+      },
+    });
+  };
+  const handleCityChange = (e) => {
+    setPerson({
+      ...person,
+      artwork: {
+        ...person.artwork,
+        city: e.target.value,
+      },
+    });
+  };
+  const handleImageChange = (e) => {
+    setPerson({
+      ...person,
+      artwork: {
+        ...person.artwork,
+        image: e.target.value,
       },
     });
   };
@@ -25,14 +48,14 @@ export default function ArtWork() {
       <form>
         <label>
           Name
-          <input value={person.name} name="name" onChange={handleChange} />
+          <input value={person.name} name="name" onChange={handleNameChange} />
         </label>
         <label>
           Title
           <input
             value={person.artwork.title}
             name="title"
-            onChange={handleChange}
+            onChange={handleTitleChange}
           />
         </label>
         <label>
@@ -40,7 +63,7 @@ export default function ArtWork() {
           <input
             value={person.artwork.city}
             name="city"
-            onChange={handleChange}
+            onChange={handleCityChange}
           />
         </label>
         <label>
@@ -48,7 +71,7 @@ export default function ArtWork() {
           <input
             value={person.artwork.image}
             name="image"
-            onChange={handleChange}
+            onCh={handleImageChange}
           />
         </label>
       </form>

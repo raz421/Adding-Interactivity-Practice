@@ -1,6 +1,6 @@
 // import Toolbar from "./components/Toolbar";
 
-import ArtWork from "./components/ObjectInState/Artwork";
+import List from "./components/ArrayInState/List";
 
 function App() {
   return (
@@ -16,7 +16,9 @@ function App() {
       {/* <Form /> */}
       {/* <MovingDot /> */}
       {/* <Person /> */}
-      <ArtWork />
+      {/* <ArtWork /> */}
+      {/* <Sculptor /> */}
+      <List />
     </>
   );
 }
