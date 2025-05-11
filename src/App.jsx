@@ -1,6 +1,6 @@
 // import Toolbar from "./components/Toolbar";
 
-import Form from "./components/StateSnapshot/Form";
+import Person from "./components/ObjectInState/Person";
 
 function App() {
   return (
@@ -13,7 +13,9 @@ function App() {
       {/* <Gallery /> */}
       {/* <br /> */}
       {/* <Gallery /> */}
-      <Form />
+      {/* <Form /> */}
+      {/* <MovingDot /> */}
+      <Person />
     </>
   );
 }
