@@ -1,6 +1,6 @@
 // import Toolbar from "./components/Toolbar";
 
-import Form from "./components/EventPropagation/Form";
+import Form from "./components/StateSnapshot/Form";
 
 function App() {
   return (
@@ -9,6 +9,10 @@ function App() {
       {/* <ReadingProps /> */}
       {/* <Toolbar /> */}
       {/* <ToolbarTwo /> */}
+      {/* <Form /> */}
+      {/* <Gallery /> */}
+      {/* <br /> */}
+      {/* <Gallery /> */}
       <Form />
     </>
   );
