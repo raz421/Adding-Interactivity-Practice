@@ -1,6 +1,6 @@
 // import Toolbar from "./components/Toolbar";
 
-import Person from "./components/ObjectInState/Person";
+import ArtWork from "./components/ObjectInState/Artwork";
 
 function App() {
   return (
@@ -15,7 +15,8 @@ function App() {
       {/* <Gallery /> */}
       {/* <Form /> */}
       {/* <MovingDot /> */}
-      <Person />
+      {/* <Person /> */}
+      <ArtWork />
     </>
   );
 }
